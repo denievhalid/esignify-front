@@ -65,10 +65,15 @@ const Main = ({ children }: PropsWithChildren) => {
   return <main className="py-24">{children}</main>;
 };
 
+const Title = ({ children }: PropsWithChildren) => {
+  return <h1 className="text-5xl text-center">{children}</h1>;
+};
+
 export const Page = {
   Container,
   Header,
   Footer,
   Layout,
   Main,
+  Title,
 };
